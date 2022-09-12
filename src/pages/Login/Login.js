@@ -3,7 +3,10 @@ import login_img from "../../assets/login.png";
 
 const Login = () => {
   const handleSignIn = async () => {
-    window.open("http://localhost:5000/auth/google/callback", "_self");
+    window.open(
+      "https://quiz-test-server.onrender.com/auth/google/callback",
+      "_self"
+    );
   };
   return (
     <div>

@@ -2,9 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = ({ user }) => {
-  console.log(user);
   const handleSignOut = async () => {
-    window.open("http://localhost:5000/auth/logout", "_self");
+    window.open("https://quiz-test-server.onrender.com/auth/logout", "_self");
   };
   return (
     <>
